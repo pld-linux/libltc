@@ -5,13 +5,13 @@
 Summary:	Linear/longitudinal timecode library
 Summary(pl.UTF-8):	Biblioteka do liniowego kodu czasowego
 Name:		libltc
-Version:	1.3.1
+Version:	1.3.2
 Release:	1
 License:	LGPL v3+
 Group:		Libraries
 #Source0Download: https://github.com/x42/libltc/releases
 Source0:	https://github.com/x42/libltc/releases/download/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	a854f586b20a2732c93bc67d7b4f3813
+# Source0-md5:	880969e18fda4a924cb62b3b561db376
 URL:		https://github.com/x42/libltc
 BuildRequires:	doxygen
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
